@@ -1,0 +1,144 @@
+/* Estilos para modo claro (predeterminado) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Fondo claro */
+    color: #000; /* Color del texto */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header {
+    background: #00796b; /* Fondo verde oscuro */
+    color: white; /* Color del texto */
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    background-color: #424242; /* Fondo del nav oscuro */
+    padding: 14px 10px;
+}
+
+nav a {
+    color: #ffeb3b; /* Color amarillo para los enlaces */
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background-color: #ffeb3b; /* Fondo amarillo en hover */
+    color: #424242; /* Color del texto en hover */
+}
+
+.schedule-button {
+    background-color: #ff5722; /* Fondo naranja */
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 12px 30px;
+    text-decoration: none;
+}
+
+/* Estilos para modo oscuro */
+body.dark-mode {
+    background-color: #121212; /* Fondo oscuro */
+    color: #e0e0e0; /* Color del texto claro */
+}
+
+body.dark-mode .header {
+    background: #1e1e1e; /* Fondo oscuro para el encabezado */
+}
+
+body.dark-mode nav {
+    background-color: #333333; /* Fondo oscuro para el nav */
+}
+
+body.dark-mode nav a {
+    color: #b3b3b3; /* Color claro para los enlaces en modo oscuro */
+}
+
+body.dark-mode nav a:hover {
+    background-color: #555555; /* Fondo oscuro en hover */
+    color: #ffffff; /* Color del texto en hover */
+}
+
+body.dark-mode .schedule-button {
+    background-color: #ff7043; /* Fondo naranja oscuro para el botón */
+}
+
+/* Estilos para el botón de modo oscuro */
+.theme-toggle-button {
+    background-color: #00796b; /* Fondo verde oscuro */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s, transform 0.3s; /* Transición suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    outline: none; /* Elimina el borde de enfoque predeterminado */
+}
+
+.theme-toggle-button:hover {
+    background-color: #004d40; /* Fondo más oscuro en hover */
+    transform: translateY(-2px); /* Efecto de elevación */
+}
+
+.theme-toggle-button:active {
+    background-color: #00332e; /* Fondo aún más oscuro cuando está presionado */
+    transform: translateY(1px); /* Ajuste de la elevación al ser presionado */
+}
+.firsh{
+    position: relative;
+    left: 187px;
+}
+.dl{
+    text-align: center;
+}
+
+
+/* Estilos para el cuadro de créditos */
+.creditos {
+    background-color: #00796b; /* Fondo verde oscuro para el modo claro */
+    color: #fff; /* Color del texto en blanco */
+    padding: 20px;
+    text-align: center;
+    position: fixed; /* Fijo en la parte inferior */
+    bottom: 0;
+    left: 0; /* Asegura que el cuadro de créditos se alinee con el borde izquierdo */
+    width: 100%; /* Ancho completo de la página */
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+    font-size: 14px; /* Tamaño del texto */
+    border-top: 3px solid #004d40; /* Borde superior */
+}
+
+/* Estilos para el cuadro de créditos en modo oscuro */
+body.dark-mode .creditos {
+    background-color: #333333; /* Fondo más oscuro para el cuadro de créditos en modo oscuro */
+    color: #e0e0e0; /* Color del texto claro en modo oscuro */
+    border-top: 3px solid #444444; /* Borde superior más oscuro en modo oscuro */
+}
+
+.creditos a {
+    color: #ffeb3b; /* Color amarillo para los enlaces */
+    text-decoration: none;
+}
+
+.creditos a:hover {
+    text-decoration: underline; /* Subrayar en hover */
+}
+
